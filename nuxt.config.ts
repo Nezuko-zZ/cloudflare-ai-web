@@ -38,7 +38,7 @@ export default defineNuxtConfig({
         vueI18n: './i18n.config.ts',
         strategy: 'no_prefix',
         defaultLocale: 'zh',
-    }
+    },
          nitro: {
           preset: 'cloudflare-pages'
        }
