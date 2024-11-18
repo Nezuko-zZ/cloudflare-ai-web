@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         }
     },
     app: {
+        baseURL: '/cloudflare-ai-web/',
         head: {
             title: 'CF AI Web',
             meta: [
