@@ -1,0 +1,6 @@
+/cloudflare-ai-web/_nuxt/builds/meta/*
+  cache-control: public, max-age=31536000, immutable
+/cloudflare-ai-web/_nuxt/builds/*
+  cache-control: public, max-age=1, immutable
+/cloudflare-ai-web/_nuxt/*
+  cache-control: public, max-age=31536000, immutable

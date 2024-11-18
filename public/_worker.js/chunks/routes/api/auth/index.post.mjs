@@ -1,0 +1,2 @@
+import{d as e,b as s,p as r}from"../../../_/nitro.mjs";import{a,s as o,w as t}from"../../../_/helper.mjs";import"../../../_/import-wrapper-prod.mjs";import"../../../_/runtime-core.esm-bundler.mjs";const m=e((async e=>{const m=await s(e),{model:i,messages:n}=m,p={stream:!0,messages:n},d=await fetch(`${r.env.CF_GATEWAY}/workers-ai/${i}`,{method:"POST",headers:{Authorization:`Bearer ${r.env.CF_TOKEN}`,"Content-Type":"application/json"},body:JSON.stringify(p)});return d.ok?o(d,t):a(d)}));export{m as default};
+//# sourceMappingURL=index.post.mjs.map
